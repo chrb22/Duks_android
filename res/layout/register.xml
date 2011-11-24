@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+
+	<TextView android:text="Enter username" android:id="@+id/textView1"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_gravity="center"></TextView>
+	<EditText android:id="@+id/username" android:layout_width="match_parent"
+		android:layout_height="wrap_content"></EditText>
+	<TextView android:text="Enter password" android:id="@+id/textView2"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_gravity="center"></TextView>
+	<EditText android:id="@+id/password1" android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:inputType="textPassword"></EditText>
+	<TextView android:text="Enter password again" android:id="@+id/textView3"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_gravity="center"></TextView>
+	<EditText android:id="@+id/password2" android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:inputType="textPassword"></EditText>
+	<Button android:text="Register" android:id="@+id/register"
+		android:layout_width="100dp" android:layout_height="wrap_content"
+		android:layout_gravity="center"></Button>
+	<TextView android:text="" android:id="@+id/rC"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></TextView>
+
+</LinearLayout>

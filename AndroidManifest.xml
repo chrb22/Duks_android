@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="www.editu.dk" android:versionCode="1" android:versionName="1.0">
+	<uses-sdk android:minSdkVersion="8" />
+
+	<application android:icon="@drawable/icon" android:label="@string/app_name">
+		<activity android:name=".Splash" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".Menu" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="www.editu.dk.MENU" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".DukseGenerator" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="www.editu.dk.DUKSEGENERATOR" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".example1" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="www.editu.dk.EXAMPLE1" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".Email" android:label="@string/app_name">
+		</activity>
+		<activity android:name=".Login" android:label="@string/app_name">
+		</activity>
+		<activity android:name=".login" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="www.editu.dk.LOGIN" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".Generator" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="www.editu.dk.GENERATOR" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".Elever" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="www.editu.dk.ELEVER" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".Info" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="www.editu.dk.INFO" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+				<activity android:name=".Register" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="www.editu.dk.REGISTER" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+	</application>
+</manifest>
